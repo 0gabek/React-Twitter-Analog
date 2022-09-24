@@ -1,0 +1,60 @@
+.app {
+  background-color: #fff;
+  box-shadow: 1px 8px 16px rgba(0, 0, 0, 0.6);
+  margin: 50px 150px;
+  min-width: 80px;
+  padding: 20px;
+  max-height: 85vh;
+}
+@media screen and (max-width: 1024px) {
+  .app {
+    margin: 100px 45px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .app {
+    margin: 0;
+    min-height: 100vh;
+    padding: 0.5rem;
+  }
+  .app-header {
+    margin-bottom: 15px;
+  }
+  .app-header h1 {
+    font-size: 21px;
+  }
+  .app-header h2 {
+    font-size: 1rem;
+  }
+  .form-control {
+    font-size: 1rem;
+  }
+  .search-panel {
+    margin: 0.7rem 0;
+  }
+  .btn {
+    line-height: 1;
+    font-size: 0.9rem;
+  }
+  .app-list {
+    margin-top: -12px;
+  }
+  .text-muted {
+    margin: 14px 0;
+  }
+  .app-list-item {
+    align-items: center;
+  }
+  .app-list .list-group-item {
+    margin-top: 10px;
+    padding: 10px 32px 10px 6px;
+  }
+  .app-list-item-label {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+  .btn-outline-secondary,
+  .bottom-panel .new-post-label {
+    font-size: 0.97rem;
+  }
+}

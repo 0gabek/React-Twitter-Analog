@@ -1,0 +1,22 @@
+.app-list .list-group-item {
+  margin-top: 10px;
+  padding: 20px 35px 10px;
+}
+.lead {
+  font-weight: 600;
+}
+.app-list {
+  overflow-y: auto;
+  max-height: 305px;
+}
+
+@media (orientation: portrait) {
+  .app-list {
+    max-height: 71rem;
+  }
+}
+@media (max-width: 569px) {
+  .app-list {
+    max-height: 62vh;
+  }
+}
